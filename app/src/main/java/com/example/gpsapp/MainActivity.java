@@ -215,7 +215,7 @@ private void startLocationUpdates()
         }
         else
         {
-            tv_altitude.setText("Not available");
+            tv_speed.setText("Not available");
         }
         Geocoder geocoder=new Geocoder(MainActivity.this);
         try {
